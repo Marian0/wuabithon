@@ -70,4 +70,5 @@
 
 <!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
 <script src="<?= asset('assets/js/jquery.validate.min.js') ?>"></script>
+@yield('scripts')
 </html>
