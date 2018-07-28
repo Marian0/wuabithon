@@ -9,10 +9,9 @@ Route::get('/', function () {
 
 Route::get('/register', function() {
     $tabs = [
-        'signup',
-        'validation',
-        'type',
-        'extra',
+        'datos',
+        'validar',
+        'codigo',
     ];
 
     return view('register.index', compact('tabs'));
