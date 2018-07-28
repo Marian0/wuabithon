@@ -19,6 +19,6 @@ Route::get('/register', function() {
 });
 
 
-Route::get('/dashboard', function() {
+Route::any('/dashboard', function() {
     return view('dashboard.index');
 });
