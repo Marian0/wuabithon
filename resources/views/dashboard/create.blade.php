@@ -55,6 +55,29 @@
 
 
     <script>
+
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -31.6318439, lng: -60.7167267},
+                zoom: 16
+            });
+
+            var bounds = {
+                north:  -31.630,
+                south: -31.635,
+                east: -60.710,
+                west: -60.720
+            };
+
+            // Define a rectangle and set its editable property to true.
+            var rectangle = new google.maps.Rectangle({
+                bounds: bounds,
+                editable: true
+            });
+            rectangle.setMap(map);
+        }
+
+
         $(document).ready(function () {
 
             $(document).on('click', '.choice', function(event){
@@ -64,9 +87,15 @@
                 $("#" + $(this).attr('data-form')).fadeIn();
 
 
-            })
+            });
+
+            // This example adds a user-editable rectangle to the map.
+
 
         });
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxeaMi4iI-IQrv3hxIBA7HVzW7PfUI-VY&callback=initMap">
     </script>
 
 @stop
