@@ -1,5 +1,5 @@
 <div class="tab-pane" id="<?= $tab ?>">
-    <h4 class="info-text">Ingresá el código</h4>
+    <h4 class="info-text">Ingresá el código que te enviamos a tu teléfono</h4>
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
           <div class="input-group">
