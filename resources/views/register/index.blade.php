@@ -8,9 +8,9 @@
 
                 <div class="wizard-header">
                     <h3 class="wizard-title">
-                        Book a Room
+                        Registrate!
                     </h3>
-                    <h5>This information will let us know more about you.</h5>
+                    <h5>Llená el formulario y validá tus datos para crear tu cuenta.</h5>
                 </div>
                 <div class="wizard-navigation">
                     <ul>
@@ -22,7 +22,7 @@
 
                 <div class="tab-content">
                     <?php foreach ($tabs as $tab): ?>
-                    @include('wizard.tabs.' . $tab)
+                    @include('register.tabs.' . $tab)
                     <?php endforeach; ?>
                 </div>
                 <div class="wizard-footer">

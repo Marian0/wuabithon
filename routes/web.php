@@ -15,7 +15,7 @@ Route::get('/register', function() {
         'extra',
     ];
 
-    return view('wizard.index', compact('tabs'));
+    return view('register.index', compact('tabs'));
 });
 
 
