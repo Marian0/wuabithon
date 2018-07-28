@@ -260,7 +260,13 @@ $.fn.bootstrapWizard = function(options) {
 		// Store plugin object in this element's data
 		element.data('bootstrapWizard', wizard);
 		// and then trigger initial change
-		wizard.fixNavigationButtons();
+		try {
+			wizard.fixNavigationButtons();
+        } catch (e) {
+
+		    // console.log(":o");
+
+        }
 	});
 };
 
