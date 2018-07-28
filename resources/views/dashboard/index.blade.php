@@ -1,5 +1,33 @@
 @extends('layout.app')
 
+<?php
+
+$menu = [
+
+    [
+        'label' => 'Mis Pólizas',
+        'route' => route('dashboard', ['section' => 'list'])
+    ],
+    [
+        'label' => 'Crear Póliza',
+        'route' => route('dashboard', ['section' => 'create'])
+    ],
+    [
+        'label' => 'Declarar Activo',
+        'route' => route('dashboard', ['section' => 'declare'])
+    ],
+    [
+        'label' => 'Configuración',
+        'route' => route('dashboard', ['section' => 'settings'])
+    ],
+    [
+        'label' => 'Salir',
+        'route' => route('welcome')
+    ],
+
+];
+?>
+
 @section('content')
 
     <div class="wizard-container">
@@ -15,11 +43,9 @@
 
             <div class="wizard-navgation">
                 <ul>
-                    <li><a href="">Mis Pólizas</a></li>
-                    <li><a href="">Crear Póliza</a></li>
-                    <li><a href="">Declarar Activo</a></li>
-                    <li><a href="">Configuración</a></li>
-                    <li><a href="./">Salir</a></li>
+                    <?php foreach($menu as $menu): ?>
+                    <li><a href="<?= array_get($menu, 'route') ?>"><?= array_get($menu, 'label') ?></a></li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
 

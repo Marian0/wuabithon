@@ -1,10 +1,8 @@
 <?php
 
 Route::get('/', function () {
-
     return view('welcome');
-
-});
+})->name('welcome');
 
 
 Route::get('/register', function() {
@@ -15,9 +13,9 @@ Route::get('/register', function() {
     ];
 
     return view('register.index', compact('tabs'));
-});
+})->name('register');
 
 
-Route::any('/dashboard', function() {
-    return view('dashboard.index');
-});
+Route::any('/dashboard/{section?}', function($section = 'list') {
+    return view('dashboard.list');
+})->name('dashboard');
