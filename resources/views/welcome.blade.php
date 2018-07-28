@@ -22,7 +22,7 @@
                             </h4>
                         </div>
 
-                        <div class="col-sm-6 col-sm-offset-3">
+                        <div class="col-sm-8 col-sm-offset-2">
 
                             <div class="input-group">
                                 <span class="input-group-addon">
