@@ -162,6 +162,13 @@ body{
     padding-top: 20px;
 }
 
+.dashboard-container .nav {
+    margin-bottom: 50px;
+}
+
+.dashboard-container .nav a:hover, .dashboard-container .nav a.active {
+    background: #88d38f;
+}
 
 
 .fixed-section{

@@ -39,7 +39,7 @@ $menu = [
 
 @section('content')
 
-    <div class="wizard-container">
+    <div class="wizard-container dashboard-container">
         <div class="card wizard-card" data-color="red" id="wizard">
 
 
@@ -64,6 +64,8 @@ $menu = [
 
 
             @yield('inner')
+
+            <div class="clearfix"></div>
 
         </div>
     </div>
