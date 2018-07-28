@@ -17,5 +17,5 @@ Route::get('/register', function() {
 
 
 Route::any('/dashboard/{section?}', function($section = 'list') {
-    return view('dashboard.list');
+    return view('dashboard.' . $section);
 })->name('dashboard');
