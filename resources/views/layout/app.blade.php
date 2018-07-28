@@ -30,7 +30,7 @@
 
     <div class="col-md-6 col-md-offset-3">
 
-        <a href="http://creative-tim.com">
+        <a href="./">
             <div class="logo">
                 <img src="<?= asset('images/wuabilogo.png') ?>">
             </div>

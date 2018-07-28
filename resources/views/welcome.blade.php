@@ -8,7 +8,7 @@
 
                 <div class="wizard-header">
                     <h3 class="wizard-title">
-                        Bienvenido a Wuabi
+                        Identificación
                     </h3>
                 </div>
 
@@ -18,7 +18,7 @@
                             <h4 class="info-text">
                                 Ingrese su usuario y contraseña para continuar. Si no tenés cuenta podés
                                 crearla
-                                <a href="">haciendo click aquí</a>
+                                <a href="">haciendo click aquí</a>.
                             </h4>
                         </div>
 
@@ -29,7 +29,7 @@
                                 <i class="material-icons">email</i>
                                 </span>
                                 <div class="form-group label-floating">
-                                    <label class="control-label">Your Email</label>
+                                    <label class="control-label">Email</label>
                                     <input name="email" type="email" autocomplete="off" class="form-control">
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                 </span>
 
                                 <div class="form-group label-floating">
-                                    <label class="control-label">Your Password</label>
+                                    <label class="control-label">Password</label>
                                     <input name="password" type="password" class="form-control">
                                 </div>
                             </div>
