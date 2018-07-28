@@ -9,22 +9,27 @@
 $menu = [
 
     [
+        'icon' => 'list',
         'label' => 'Mis Pólizas',
         'route' => route('dashboard', ['section' => 'list'])
     ],
     [
+        'icon' => 'add',
         'label' => 'Crear Póliza',
         'route' => route('dashboard', ['section' => 'create'])
     ],
     [
+        'icon' => 'add_circle',
         'label' => 'Declarar Activo',
         'route' => route('dashboard', ['section' => 'declare'])
     ],
     [
+        'icon' => 'settings',
         'label' => 'Configuración',
         'route' => route('dashboard', ['section' => 'settings'])
     ],
     [
+        'icon' => 'exit_to_app',
         'label' => 'Salir',
         'route' => route('welcome')
     ],
@@ -48,7 +53,11 @@ $menu = [
             <div class="wizard-navgation">
                 <ul>
                     <?php foreach($menu as $menu): ?>
-                    <li><a href="<?= array_get($menu, 'route') ?>"><?= array_get($menu, 'label') ?></a></li>
+                    <li>
+                        <a href="<?= array_get($menu, 'route') ?>">
+                            <i class="material-icons"><?= array_get($menu, 'icon') ?></i>
+                            <?= array_get($menu, 'label') ?></a>
+                    </li>
                     <?php endforeach; ?>
                 </ul>
             </div>
