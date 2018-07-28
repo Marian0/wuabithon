@@ -1,28 +1,25 @@
-
-
-
-<div id="inundacion" class="forms" style="display: none">
-    
+<div id="inundacion" class="forms col-md-12" style="display: none">
+  <h3>Completá el siguiente formulario</h3>
     <div class="form-group">
-        <label for="">Campo 1</label>
+        <label for="">Activo</label>
         <input type="text" class="form-control">
     </div>
-
-
     <div class="form-group">
-        <label for="">Campo 1</label>
+        <label for="">Zona</label>
         <input type="text" class="form-control">
     </div>
 
     <div class="form-group">
-        <label for="">Campo 1</label>
-        <input type="text" class="form-control">
+        <label for="">Hectáreas</label>
+        <input type="number" class="form-control">
     </div>
 
     <div class="form-group">
-        <label for="">Campo 1</label>
+        <label for="">Costo</label>
+        <input type="number" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Premio</label>
         <input type="text" class="form-control">
     </div>
-
-    
 </div>
