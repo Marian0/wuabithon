@@ -27,7 +27,7 @@
                 </div>
                 <div class="wizard-footer">
                     <div class="pull-right">
-                        <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next'/>
+                        <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' onclick="copiarDatos();"/>
                         <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish'
                                value='Finish'/>
                     </div>
@@ -51,4 +51,30 @@
             </form>
         </div>
     </div> <!-- wizard container -->
+@stop
+
+@section('scripts')
+    <script>
+
+      var nombreUser
+      var dni;
+      var telefono;
+      var direccion;
+      var email;
+      var password;
+        $(document).ready(function() {
+
+        });
+        function copiarDatos()
+        {
+          nombreUser = document.getElementById("nombreUser").value;
+          dni = document.getElementById("dni").value;
+          telefono = document.getElementById("telefono").value;
+          direccion = document.getElementById("direccion").value;
+          email = document.getElementById("email").value;
+
+          document.getElementById("emailValidado").value = document.getElementById("email").value;
+          document.getElementById("telefonoValidado").value = document.getElementById("telefono").value;
+        }
+    </script>
 @stop
