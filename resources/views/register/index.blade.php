@@ -29,7 +29,7 @@
                     <div class="pull-right">
                         <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Siguiente' onclick="copiarDatos();"/>
                         <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish'
-                               value='Terminar'/>
+                               value='Terminar' onclick="irAlDashboard();"/>
                     </div>
                     <div class="pull-left">
                         <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous'
@@ -69,6 +69,10 @@
 
           document.getElementById("emailValidado").value = document.getElementById("email").value;
           document.getElementById("telefonoValidado").value = document.getElementById("telefono").value;
+        }
+        function irAlDashboard()
+        {
+          location.href = "dashboard";
         }
     </script>
 @stop
