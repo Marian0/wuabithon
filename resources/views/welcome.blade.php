@@ -4,7 +4,9 @@
     <div class="wizard-container">
         <div class="card wizard-card" data-color="red" id="wizard">
 
-            <form action="./dashboard" method="get">
+            <form action="./dashboard" method="post">
+
+                {{ csrf_field() }}
 
                 <div class="wizard-header">
                     <h3 class="wizard-title">
