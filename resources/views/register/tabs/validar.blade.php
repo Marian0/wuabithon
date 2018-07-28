@@ -11,7 +11,7 @@
                         </span>
               <div class="form-group label-floating">
                   <label class="control-label"></label>
-                  <input id="telefonoValidado" name="telefono" type="text" class="form-control">
+                  <input id="telefonoValidado" name="telefono" type="text" class="form-control" disabled>
               </div>
           </div>
         </div>
@@ -22,7 +22,7 @@
                         </span>
               <div class="form-group label-floating">
                   <label class="control-label"></label>
-                  <input id="emailValidado" name="email" type="text" class="form-control">
+                  <input id="emailValidado" name="email" type="text" class="form-control" disabled>
               </div>
           </div>
 

@@ -27,22 +27,16 @@
                 </div>
                 <div class="wizard-footer">
                     <div class="pull-right">
-                        <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' onclick="copiarDatos();"/>
+                        <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Siguiente' onclick="copiarDatos();"/>
                         <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish'
-                               value='Finish'/>
+                               value='Terminar' onclick="irAlDashboard();"/>
                     </div>
                     <div class="pull-left">
                         <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous'
-                               value='Previous'/>
+                               value='Anterior'/>
 
                         <div class="footer-checkbox">
                             <div class="col-sm-12">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="optionsCheckboxes">
-                                    </label>
-                                    Subscribe to our newsletter
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -75,6 +69,10 @@
 
           document.getElementById("emailValidado").value = document.getElementById("email").value;
           document.getElementById("telefonoValidado").value = document.getElementById("telefono").value;
+        }
+        function irAlDashboard()
+        {
+          location.href = "dashboard";
         }
     </script>
 @stop
