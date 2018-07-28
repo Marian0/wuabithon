@@ -1,5 +1,13 @@
 <?php
 
 Route::get('/', function () {
-    return view('wizard.index');
+
+
+    $tabs = [
+        'signup',
+        'type',
+        'extra',
+    ];
+
+    return view('wizard.index', compact('tabs'));
 });
