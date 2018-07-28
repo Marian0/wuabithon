@@ -1,5 +1,9 @@
 @extends('layout.app')
 
+@section('width')
+    col-md-12
+@stop
+
 <?php
 
 $menu = [
