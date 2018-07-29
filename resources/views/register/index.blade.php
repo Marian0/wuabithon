@@ -32,7 +32,7 @@
                                value='Terminar' onclick="irAlDashboard();"/>
                     </div>
                     <div class="pull-left">
-                        <a href="" class="btn btn-default">Ir al Inicio</a>
+                        <a href="<?= route('welcome') ?>" class="btn btn-default">Ir al Inicio</a>
                         <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous'
                                value='Anterior'/>
 

@@ -1,8 +1,8 @@
 <div class="tab-pane" id="<?= $tab ?>">
     <div class="row">
         <div class="col-sm-12">
-            <h4 class="info-text"> Revisa los datos y continua si estan correctos!</h4>
-            <h6 class="info-text">Te enviaremos un codigo para verificar los datos.</h6>
+            <h4 class="info-text">Revisá los datos y continuá si están correctos!</h4>
+            <h6 class="info-text">Te enviaremos un código para verificar los datos</h6>
         </div>
         <div class="col-sm-6">
           <div class="input-group">
