@@ -22,27 +22,11 @@
         width: 30px;
         animation: spin 2s linear infinite;
         float: left;
-        margin: 0.5rem;
-        margin-left: 2.5rem;
-    }
-    #spinloader {
-        border: 3px solid #fff;
-        border-top: 3px solid #1e2834;
-        border-radius: 50%;
-        height: 30px;
-        width: 30px;
-        animation: spin 2s linear infinite;
-        float: left;
-        margin: 0.5rem;
-        margin-left: 2.5rem;
-    }
-    .labelloading {
-        float: left;
-        left: 3rem;
+        margin: 10px 0 0 25px;
     }
 </style>
 
-<div id="loadingWrapper" >
+<div id="loadingWrapper" style="display: none">
     <div class="loadingContainer">
         <div id="spinloader"></div>
         <div class="labelloading">
