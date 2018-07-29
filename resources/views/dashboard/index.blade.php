@@ -47,7 +47,7 @@ $menu = [
 
             <div class="wizard-header">
                 <h3 class="wizard-title">
-                    Dashboard
+                    Sistema de Coberturas
                 </h3>
             </div>
 
