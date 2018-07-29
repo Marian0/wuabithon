@@ -29,6 +29,11 @@ body{
     min-height: inherit;
 }
 
+.wizard-card {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
 .tim-row{
     margin-bottom: 20px;
 }

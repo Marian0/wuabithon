@@ -15,7 +15,7 @@ $menu = [
         'icon' => 'list',
         'label' => 'Mis Pólizas',
         'route' => route('dashboard', ['section' => 'list']),
-        'active' => $section == 'list'
+        'active' => empty($section) || $section == 'list'
     ],
     [
         'icon' => 'add',
