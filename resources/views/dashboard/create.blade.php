@@ -1,6 +1,7 @@
 @extends('dashboard.index')
 
 @section('inner')
+
     <div class="tab-content">
         <div class="tab-pane active">
             <h4 class="info-text">Elegí el tipo de Póliza:</h4>
@@ -13,8 +14,11 @@
                              data-original-title="This is good if you travel alone.">
                             <input type="radio" name="job" value="Design">
                             <div class="icon">
-                                <i class="material-icons">weekend</i>
+                              <img style="width: 30px; padding-top: 40px;" src="<?= asset('images/flood.svg') ?>"/>
+                              <img style="width: 30px; padding-top: 40px;" src="<?= asset('images/sun.svg') ?>"/>
                             </div>
+
+
                             <h6>Inundación Sequía</h6>
                         </a>
                     </div>
@@ -23,7 +27,7 @@
                              data-original-title="Select this room if you're traveling with your family.">
                             <input type="radio" name="job" value="Code" checked="checked">
                             <div class="icon">
-                                <i class="material-icons">home</i>
+                                <img style="width: 40px; padding-top: 35px;" src="<?= asset('images/hurricane.svg') ?>"/>
                             </div>
                             <h6>Catastrófico</h6>
                         </a>
@@ -33,11 +37,13 @@
                              data-original-title="Select this option if you are coming with your team.">
                             <input type="radio" name="job" value="Code">
                             <div class="icon">
-                                <i class="material-icons">business</i>
+                                <img style="width: 40px; padding-top: 35px;" src="<?= asset('images/cow.svg') ?>"/>
                             </div>
                             <h6>Ganadero</h6>
                         </a>
                     </div>
+
+
                 </div>
             </div>
         </div>
