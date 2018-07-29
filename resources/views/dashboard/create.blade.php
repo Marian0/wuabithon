@@ -46,11 +46,14 @@
 
                 </div>
             </div>
+
+
         </div>
 
         <hr>
 
         @include('dashboard.poliza_forms.inundacion-sequia')
+        @include('dashboard.poliza_forms.modal-poliza')
 
 
 
