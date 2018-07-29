@@ -19,8 +19,8 @@ $menu = [
         'route' => route('dashboard', ['section' => 'create'])
     ],
     [
-        'icon' => 'add_circle',
-        'label' => 'Declarar Activo',
+        'icon' => 'account_box',
+        'label' => 'Perfil Scoring',
         'route' => route('dashboard', ['section' => 'declare'])
     ],
     [
