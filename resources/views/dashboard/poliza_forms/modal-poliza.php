@@ -12,6 +12,11 @@ $data = [[
 ]];
 
 ?>
+<style>
+    .modal-dialog {
+        width: 90%;
+    }
+</style>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -47,6 +52,8 @@ $data = [[
                         </tbody>
                     </table>
                 </div>
+
+                <div class="clearfix"></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" style="margin-bottom: 0;">Cancelar</button>
