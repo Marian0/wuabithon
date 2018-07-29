@@ -625,3 +625,7 @@ footer .pull-center {
     margin-right: 10px;
   }
 }
+
+ h6 {
+    color: #3C4858 !important;
+}

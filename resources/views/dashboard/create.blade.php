@@ -112,8 +112,7 @@
             setTimeout(function(){
                 hideLoader();
 
-                confirm("seguro?");
-
+                $("#exampleModal").modal("show");
             }, 2000);
 
         });
