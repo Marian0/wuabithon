@@ -16,10 +16,7 @@
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
 
-<!-- Ojo con esto -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- termina ojo -->
+
     <!-- CSS Files -->
     <link href="<?= asset('assets/css/bootstrap.min.css') ?>" rel="stylesheet"/>
     <link href="<?= asset('assets/css/material-bootstrap-wizard.css') ?>" rel="stylesheet"/>
