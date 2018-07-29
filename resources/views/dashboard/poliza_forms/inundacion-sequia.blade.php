@@ -22,8 +22,6 @@
         <label for="">Premio</label>
         <input type="text" class="form-control">
     </div>
-<<<<<<< HEAD
-
 
     <style>
         /* Always set the map height explicitly to define the size of the div
@@ -42,7 +40,3 @@
 
     <div id="map"></div>
 </div>
-
-=======
-</div>
->>>>>>> 2792489ade070b1b107f78cbed9667c2f285eac2
