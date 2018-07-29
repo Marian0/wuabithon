@@ -38,13 +38,6 @@
         </a>
     </div>
 
-    <!--  Made With Material Kit  -->
-    <a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk">
-        <div class="brand">MK</div>
-        <div class="made-with">Made with <strong>Material Kit</strong></div>
-    </a>
-
-    <!--   Big container   -->
     <div class="container">
         <div class="row">
             <div class="@yield('width', 'col-sm-10 col-sm-offset-1')">
