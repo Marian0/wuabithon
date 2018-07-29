@@ -118,6 +118,22 @@
         });
 
 
+        $(document).on('submit', '#confirmPoliza', function(event) {
+            event.preventDefault();
+
+            var a = $(this).attr('action');
+
+            showLoader();
+
+            setTimeout(function(){
+                hideLoader();
+
+                window.location = a;
+
+            }, 2000);
+        });
+
+
     </script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxeaMi4iI-IQrv3hxIBA7HVzW7PfUI-VY&callback=initMap">

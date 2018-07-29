@@ -10,7 +10,9 @@ $data = [[
     'cost' => 200,
     'prize' => 750000,
     'status' => 'Activo',
-    'options' => '',
+    'options' => '<i class="material-icons">
+check_circle_outline
+</i>',
 ]];
 
 ?>

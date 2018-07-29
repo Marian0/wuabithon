@@ -55,10 +55,13 @@ $data = [[
 
                 <div class="clearfix"></div>
             </div>
+            <form action="<?= route('dashboard', ['section' => 'list']) ?>" id="confirmPoliza">
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" style="margin-bottom: 0;">Cancelar</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+                <button type="submit" class="btn btn-primary returnList">Confirmar</button>
             </div>
+            </form>
         </div>
     </div>
 </div>
