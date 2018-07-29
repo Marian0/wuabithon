@@ -17,7 +17,8 @@ $data = [[
         width: 90%;
     }
 </style>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -57,10 +58,12 @@ $data = [[
             </div>
             <form action="<?= route('dashboard', ['section' => 'list']) ?>" id="confirmPoliza">
 
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" style="margin-bottom: 0;">Cancelar</button>
-                <button type="submit" class="btn btn-primary returnList">Confirmar</button>
-            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="margin-bottom: 0;">
+                        Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-primary returnList">Confirmar</button>
+                </div>
             </form>
         </div>
     </div>
