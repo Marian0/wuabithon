@@ -18,7 +18,9 @@ check_circle_outline
 ?>
 
 @section('inner')
-    <div class="col-md-12">
+    <div class="col-md-10 col-md-offset-1">
+
+        <h4 class="info-text">Pólizas Suscriptas</h4>
 
         <table class="table table-bordered">
             <thead>
