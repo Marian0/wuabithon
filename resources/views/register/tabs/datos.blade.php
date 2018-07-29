@@ -9,7 +9,17 @@
 														<i class="material-icons">info</i>
 													</span>
                 <div class="form-group label-floating">
-                    <label class="control-label">Nombre y apellido</label>
+                    <label class="control-label">Nombre</label>
+                    <input id="nombreUser" name="name" type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons">info</i>
+													</span>
+                <div class="form-group label-floating">
+                    <label class="control-label">Apellido</label>
                     <input id="nombreUser" name="name" type="text" class="form-control">
                 </div>
             </div>
@@ -22,6 +32,9 @@
                     <input id="dni" name="dni" type="text" class="form-control">
                 </div>
             </div>
+
+        </div>
+        <div class="col-sm-6">
             <div class="input-group">
 													<span class="input-group-addon">
 														<i class="material-icons">phone</i>
@@ -40,30 +53,15 @@
                     <input id="direccion" name="direccion" type="text" class="form-control">
                 </div>
             </div>
-
-
-        </div>
-        <div class="col-sm-6">
             <div class="input-group">
                         <span class="input-group-addon">
                           <i class="material-icons">email</i>
                         </span>
                 <div class="form-group label-floating">
-                    <label class="control-label">Your Email</label>
+                    <label class="control-label">E-mail</label>
                     <input id="email" name="email" type="text" class="form-control">
                 </div>
             </div>
-
-            <div class="input-group">
-                        <span class="input-group-addon">
-                          <i class="material-icons">lock_outline</i>
-                        </span>
-                <div class="form-group label-floating">
-                    <label class="control-label">Your Password</label>
-                    <input id="password" name="password" type="password" class="form-control">
-                </div>
-            </div>
-
 
         </div>
     </div>

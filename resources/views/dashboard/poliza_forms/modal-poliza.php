@@ -22,7 +22,7 @@ $data = [[
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="border-bottom:0px">Confirmar poliza</h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="border-bottom:0px">Confirmar Póliza</h5>
             </div>
             <div class="modal-body">
                 <div class="col-md-12">

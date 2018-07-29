@@ -11,7 +11,7 @@
                         <a class="choice"
                            data-form="inundacion"
                            data-toggle="wizard-radio" rel="tooltip" title=""
-                             data-original-title="This is good if you travel alone.">
+                             data-original-title="Cobertura de riegos hídricos">
                             <input type="radio" name="job" value="Design">
                             <div class="icon">
                               <img style="width: 30px; padding-top: 40px;" src="<?= asset('images/flood.svg') ?>"/>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-sm-4">
                         <a class="choice" data-toggle="wizard-radio" rel="tooltip" title=""
-                             data-original-title="Select this room if you're traveling with your family.">
+                             data-original-title="Cobertura de riesgos disparados por alertas públicas">
                             <input type="radio" name="job" value="Code" checked="checked">
                             <div class="icon">
                                 <img style="width: 40px; padding-top: 35px;" src="<?= asset('images/hurricane.svg') ?>"/>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-sm-4">
                         <a class="choice" data-toggle="wizard-radio" rel="tooltip" title=""
-                             data-original-title="Select this option if you are coming with your team.">
+                             data-original-title="Coberturas de riesgo de mortandad animal y producción tambera">
                             <input type="radio" name="job" value="Code">
                             <div class="icon">
                                 <img style="width: 40px; padding-top: 35px;" src="<?= asset('images/cow.svg') ?>"/>
