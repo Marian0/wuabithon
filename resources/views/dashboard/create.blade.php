@@ -42,7 +42,7 @@
             </div>
         </div>
 
-
+        <hr>
 
         @include('dashboard.poliza_forms.inundacion-sequia')
 
@@ -59,14 +59,14 @@
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: {lat: -31.6318439, lng: -60.7167267},
-                zoom: 16
+                zoom: 15
             });
 
             var bounds = {
                 north:  -31.630,
                 south: -31.635,
                 east: -60.710,
-                west: -60.720
+                west: -60.723
             };
 
             // Define a rectangle and set its editable property to true.

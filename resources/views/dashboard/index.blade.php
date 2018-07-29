@@ -39,6 +39,8 @@ $menu = [
 
 @section('content')
 
+
+
     <div class="wizard-container dashboard-container">
         <div class="card wizard-card" data-color="red" id="wizard">
 
