@@ -255,3 +255,11 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+function showLoader() {
+    $("#loadingWrapper2").show();
+}
+
+function hideLoader() {
+    $("#loadingWrapper2").fadeOut();
+}

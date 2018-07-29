@@ -1,4 +1,12 @@
 <style>
+    #loadingWrapper2 {
+        height: 100%;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1001;
+        background: #00000080;
+    }
     #loadingWrapper {
         position: absolute;
         width: 100%;
@@ -6,14 +14,16 @@
         line-height: 50px;
         top: 50%;
     }
+
     .loadingContainer {
-        background: #ffeb00;
+        background: #8ad68f;
         width: 200px;
         margin: 0 auto;
         height: 100%;
         border-radius: 200px;
         text-align: center;
     }
+
     #spinloader {
         border: 3px solid #fff;
         border-top: 3px solid #1e2834;
@@ -22,45 +32,17 @@
         width: 30px;
         animation: spin 2s linear infinite;
         float: left;
-        margin: 0.5rem;
-        margin-left: 2.5rem;
-    }
-    #spinloader {
-        border: 3px solid #fff;
-        border-top: 3px solid #1e2834;
-        border-radius: 50%;
-        height: 30px;
-        width: 30px;
-        animation: spin 2s linear infinite;
-        float: left;
-        margin: 0.5rem;
-        margin-left: 2.5rem;
-    }
-    .labelloading {
-        float: left;
-        left: 3rem;
+        margin: 10px 0 0 25px;
     }
 </style>
 
-<div id="loadingWrapper" >
-    <div class="loadingContainer">
-        <div id="spinloader"></div>
-        <div class="labelloading">
-            Cargando...
+<div id="loadingWrapper2" style="display: none">
+    <div id="loadingWrapper">
+        <div class="loadingContainer">
+            <div id="spinloader"></div>
+            <div class="labelloading">
+                Cargando...
+            </div>
         </div>
     </div>
 </div>
-
-<script>
-
-    function showLoader() {
-        var x = document.getElementById("loadingWrapper");
-        x.style.display = "block";
-    }
-
-    function hideLoader() {
-        var x = document.getElementById("loadingWrapper");
-        x.style.display = "none";
-    }
-
-</script>

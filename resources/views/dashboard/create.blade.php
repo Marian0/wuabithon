@@ -102,6 +102,23 @@
 
 
         });
+
+        $(document).on('click', '.cotizar', function(event) {
+
+            event.preventDefault();
+
+            showLoader();
+
+            setTimeout(function(){
+                hideLoader();
+
+                confirm("seguro?");
+
+            }, 2000);
+
+        });
+
+
     </script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxeaMi4iI-IQrv3hxIBA7HVzW7PfUI-VY&callback=initMap">
